@@ -152,4 +152,4 @@ async def on_command_error(ctx, error):
         await ctx.send(f"Missing argument. Usage: `!{ctx.command.name} <arguments>`")
 
 # Run the bot
-bot.run(os.environ.get("MTUwMTA0ODA5NTM4NTk3NzAyMg.GA4L3a.tnZKW7Rcrp7yXQ4mtCbLhIviBJJF82KA7LNwXI"))
+bot.run(os.environ.get("BOT_TOKEN"))
